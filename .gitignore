@@ -19,6 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pt
 
 # Virtual environments
 .venv/
@@ -41,7 +42,9 @@ desktop.ini
 outputs/*
 .hf_cache/
 *.safetensors
+distilbert_clinc/
 
 # Environment
 .env
 .env.local
+.continue/
